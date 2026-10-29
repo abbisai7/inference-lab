@@ -1,7 +1,7 @@
 # Change 0007: Explain repository contents in the README
 
 Type: Documentation
-Status: In progress
+Status: Complete
 
 ## Summary
 
@@ -17,7 +17,7 @@ Replace the exhaustive directory tree with a concise purpose-oriented guide to t
 
 - [x] Replace the README tree and redundant navigation with short purpose tables.
 - [x] Check links, content accuracy, reading-map relevance, and whitespace; update index/changelog/log.
-- [ ] Commit and push the documentation branch; open a PR to main.
+- [x] Commit and push the documentation branch; open a PR to main.
 
 ## Validation and coverage
 
@@ -25,7 +25,7 @@ Replace the exhaustive directory tree with a concise purpose-oriented guide to t
 | --- | --- | --- | --- |
 | R1 — Explain instead of enumerate | README purpose tables; exhaustive tree removed | [Self-review and checks](../build-log.md) | Verified |
 | R2 — Accurate navigation | Linked guide and preserved validation commands | [Link validation and self-review](../build-log.md) | Verified |
-| R3 — Proportionate delivery | Pending | Pending | Pending |
+| R3 — Proportionate delivery | docs/readme-repository-guide and PR #2 | [PR delivery](https://github.com/abbisai7/inference-lab/pull/2) and [observed log](../build-log.md) | Verified |
 
 ## Operational impact
 
@@ -33,4 +33,4 @@ README and change-tracking documents only; no runtime, API, deployment, or direc
 
 ## Results and learning
 
-README self-review confirmed the purpose descriptions against actual files, explicit planned/implemented distinctions, retained commands, and no exhaustive tree. `python3 scripts/validate_repo.py` passed; `git diff --check` passed. Reading map/docs index checked; no routing change needed. PR publication pending. No application/unit tests were run for this documentation-only edit; no new reusable lesson or ADR was needed.
+README self-review confirmed the purpose descriptions against actual files, explicit planned/implemented distinctions, retained commands, and no exhaustive tree. `python3 scripts/validate_repo.py` passed; `git diff --check` passed. Reading map/docs index checked; no routing change needed. Commit 1a6fa34 was pushed and [PR #2](https://github.com/abbisai7/inference-lab/pull/2) opened against main; no merge performed. Closure evidence is added in a follow-up commit on the same PR branch. No application/unit tests were run for this documentation-only edit; no new reusable lesson or ADR was needed.

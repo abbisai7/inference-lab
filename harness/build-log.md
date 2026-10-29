@@ -83,3 +83,10 @@ If this file becomes cumbersome, move closed-phase entries intact to linked per-
 - Observed checks: `python3 scripts/validate_repo.py` passed (39 Markdown files, 185 inline local file links before evidence additions); `git diff --check` passed. Self-reviewed against actual files and reading-map/index relevance.
 - Limits: no application/unit tests or independent delegation for this low-impact documentation edit; structural validation does not prove runtime behavior. No lessons/ADR needed.
 - Next: commit/push this branch and create a PR; record publication evidence after it actually exists.
+
+## 2026-10-29T17:40:05-04:00 — README guide delivered through PR #2
+
+- Record: [Change 0007](build/change-0007-readme-repository-guide.md); all three requirements verified, Complete means implementation/delivery complete, not merged.
+- Observed: commit 1a6fa34 pushed to docs/readme-repository-guide; [PR #2](https://github.com/abbisai7/inference-lab/pull/2) created and attached to this chat. No main write or merge.
+- Execution correction: initial staging was denied by the filesystem sandbox; the subsequent commit found nothing staged, while the push created only the branch at its main base. Retried staging with approved Git permissions, then committed/pushed the actual documentation successfully. No code or user changes lost.
+- Checks: structural links passed before publication, staged whitespace check passed, descriptions self-reviewed. Final closure validation repeated. No application/unit tests or independent review for this documentation-only scope.

@@ -11,7 +11,7 @@ Requirements and implementation plans stay together in one readable document per
 | [Concise agent guidance](change-0004-concise-agent-guidance.md) | Documentation | Complete |
 | [Reading-map maintenance](change-0005-maintain-reading-map.md) | Documentation | Complete |
 | [PR-only workflow](change-0006-pr-only-workflow.md) | Documentation | Complete |
-| [README repository guide](change-0007-readme-repository-guide.md) | Documentation | In progress |
+| [README repository guide](change-0007-readme-repository-guide.md) | Documentation | Complete |
 
 [PLANS.md](../../PLANS.md) owns phase sequencing. Future phases get detailed records when they are planned. Keep legacy record names for history; new phase files use `phase-NN-description.md` and maintenance uses `change-NNNN-description.md`. Keep filenames unique and cross-link dependencies. This directory supports features, bugs, refactors, infrastructure, deployments, and documentation, not only initial development.
 
