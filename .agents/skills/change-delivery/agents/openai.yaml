@@ -1,0 +1,4 @@
+interface:
+  display_name: "Change Delivery"
+  short_description: "Deliver changes with evidence and focused agents"
+  default_prompt: "Use $change-delivery for the selected repository work."

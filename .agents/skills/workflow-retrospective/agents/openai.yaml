@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Retrospective"
+  short_description: "Improve workflows from observed delivery evidence"
+  default_prompt: "Use $workflow-retrospective for the selected repository work."
