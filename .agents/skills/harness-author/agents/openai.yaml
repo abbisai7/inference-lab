@@ -1,0 +1,4 @@
+interface:
+  display_name: "Harness Author"
+  short_description: "Plan bounded changes with readable requirements"
+  default_prompt: "Use $harness-author for the selected repository work."

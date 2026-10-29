@@ -1,0 +1,44 @@
+{
+  "record": "change-0003-finalize-foundation",
+  "state": "local uncommitted files; no commit revision",
+  "purpose": "identify/verify reviewed bytes, not reconstruct file contents",
+  "captured_at": "2026-10-29T16:47:24.125966-04:00",
+  "sha256": {
+    "AGENTS.md": "495943ee3fee2f29c1be3ef23f63a13dde62560dc6295f6e50b724c3f705784c",
+    "docs/workflow.md": "c9d84da13c42f72ed691670b51403b1c730134135e70515772d2e34d62325a8d",
+    "docs/orchestration.md": "99080cfdf908328f50140ea897519d4c9fee7f92808534ab027c0c3a01daaf46",
+    "docs/skills.md": "d328e7d147fdb1aeb8be8fe5814e9d8ee0331f7e34589341ad2f4cdc7849d794",
+    "docs/runbooks/development.md": "f6ba495be374a7036d3fca0e0f16cbabaaa22320d14a90b714406fe2380e22c1",
+    "harness/context/README.md": "2cadca6f5f9f0729b53476410a33f99ceade5d37e74da0aae5c875895ee40806",
+    "harness/code_review/README.md": "7da65f9edbccd890d145e46691933dde342479a32afac7c14a1fbd6f8979b4e5",
+    "scripts/validate_repo.py": "184f26bacb9448dca2898c08ba9ea04d2e849a8996b862a636c975bece291ccd",
+    "tests/unit/test_validate_repo.py": "41306f2995a61b0069bb3341a1b180fa57a66ab91ed14c280da9e428c92c1bce",
+    ".agents/skills/change-delivery/SKILL.md": "04bb1cb90050a9658e9833e443f611e9a5cc627e94e2ea0645f35500d1d17148",
+    ".agents/skills/change-delivery/agents/openai.yaml": "72a1520378ac01a94034fcf522460a8962ad89d3f1b5a605b2720a34ce48f37a",
+    ".agents/skills/harness-author/SKILL.md": "86966156761f6262f1f45cfc47b0c7f55029c71c66c7a3c92ab44fd9eeff3416",
+    ".agents/skills/harness-author/agents/openai.yaml": "7819f7667b9c995422ca055e4d31f4a961257f89a96b253a096593aa45a593ce",
+    ".agents/skills/workflow-retrospective/SKILL.md": "fa753dfcc42f5c566d4150dfd4c3ed161dc293fa43da18bc52ab8ab70fa59f7a",
+    ".agents/skills/workflow-retrospective/agents/openai.yaml": "a6eb6ebca1d9d920b139edd73b0ccb147ad406c88c5531bb307172ba34ff0637"
+  },
+  "closure_note": "Original sha256 identifies reviewed bytes. final_sha256 identifies parent-reconciled closure bytes; later evidence-summary/index edits were not independently reviewed. Hashes identify/verify and do not reconstruct content.",
+  "final_sha256": {
+    "AGENTS.md": "495943ee3fee2f29c1be3ef23f63a13dde62560dc6295f6e50b724c3f705784c",
+    "docs/workflow.md": "c9d84da13c42f72ed691670b51403b1c730134135e70515772d2e34d62325a8d",
+    "docs/orchestration.md": "99080cfdf908328f50140ea897519d4c9fee7f92808534ab027c0c3a01daaf46",
+    "docs/skills.md": "9158560793ea56f737aed7cd8e5200afb3364cba90583c9a9bf9a9e52957a73a",
+    "docs/runbooks/development.md": "f6ba495be374a7036d3fca0e0f16cbabaaa22320d14a90b714406fe2380e22c1",
+    "harness/context/README.md": "2cadca6f5f9f0729b53476410a33f99ceade5d37e74da0aae5c875895ee40806",
+    "harness/code_review/README.md": "7da65f9edbccd890d145e46691933dde342479a32afac7c14a1fbd6f8979b4e5",
+    "scripts/validate_repo.py": "184f26bacb9448dca2898c08ba9ea04d2e849a8996b862a636c975bece291ccd",
+    "tests/unit/test_validate_repo.py": "41306f2995a61b0069bb3341a1b180fa57a66ab91ed14c280da9e428c92c1bce",
+    ".agents/skills/change-delivery/SKILL.md": "04bb1cb90050a9658e9833e443f611e9a5cc627e94e2ea0645f35500d1d17148",
+    ".agents/skills/change-delivery/agents/openai.yaml": "72a1520378ac01a94034fcf522460a8962ad89d3f1b5a605b2720a34ce48f37a",
+    ".agents/skills/harness-author/SKILL.md": "86966156761f6262f1f45cfc47b0c7f55029c71c66c7a3c92ab44fd9eeff3416",
+    ".agents/skills/harness-author/agents/openai.yaml": "7819f7667b9c995422ca055e4d31f4a961257f89a96b253a096593aa45a593ce",
+    ".agents/skills/workflow-retrospective/SKILL.md": "fa753dfcc42f5c566d4150dfd4c3ed161dc293fa43da18bc52ab8ab70fa59f7a",
+    ".agents/skills/workflow-retrospective/agents/openai.yaml": "a6eb6ebca1d9d920b139edd73b0ccb147ad406c88c5531bb307172ba34ff0637"
+  },
+  "changed_during_closure": [
+    "docs/skills.md"
+  ]
+}
