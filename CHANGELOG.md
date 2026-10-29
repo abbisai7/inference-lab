@@ -24,3 +24,5 @@ Record completed repository changes under Unreleased. Link their change record a
 - Made reading-map maintenance part of affected change completion and phase retrospectives, including link relevance and documentation-index updates. See [Change 0005](harness/build/change-0005-maintain-reading-map.md).
 
 - Documented the initial-main bootstrap exception followed by mandatory topic branches and PRs, main-protection settings, fresh-context review/fix/re-review, and a PR template. See [Change 0006](harness/build/change-0006-pr-only-workflow.md).
+
+- Replaced the README directory tree with linked explanations of key files, application/infrastructure areas, harness records, skills, documentation, scripts, and tests. See [Change 0007](harness/build/change-0007-readme-repository-guide.md).

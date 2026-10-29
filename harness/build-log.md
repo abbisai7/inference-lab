@@ -74,3 +74,12 @@ If this file becomes cumbersome, move closed-phase entries intact to linked per-
 - Bootstrap: configured only repository-local author name abbisai7 and public GitHub noreply identity, added the user-supplied SSH origin, and ran `git commit --allow-empty -m 'Initialize main branch'` then `git push -u origin main`. Empty root commit d9fce16 was published successfully. `git switch -c chore/initial-foundation` created the project delivery branch.
 - Checks: `python3 scripts/validate_repo.py` passed after policy updates; `python3 -m unittest discover -s tests/unit -p 'test_*.py' -v` passed 14 tests; bundled quick_validate.py passed all three skills using the previously recorded temporary validator dependency. AGENTS.md is 83 lines. Focused token/private-key marker scan returned no matches.
 - Next: inspect staged files, commit all intended foundation files, push chore/initial-foundation and open a PR to main. These results are not claimed in this precommit snapshot. No application deployment, CI, settings changes, or merge.
+
+## 2026-10-29T17:39:19-04:00 — README purpose guide prepared
+
+- Record: [Change 0007](build/change-0007-readme-repository-guide.md); In progress, R1/R2 verified, PR delivery pending.
+- Branch: docs/readme-repository-guide from origin/main at 7c36275, after verifying PR #1 was merged. No main edits/pushes or merge performed.
+- Changed: replaced exhaustive README tree with linked purpose tables and planned/current-state descriptions; preserved foundation checks, updated index/changelog.
+- Observed checks: `python3 scripts/validate_repo.py` passed (39 Markdown files, 185 inline local file links before evidence additions); `git diff --check` passed. Self-reviewed against actual files and reading-map/index relevance.
+- Limits: no application/unit tests or independent delegation for this low-impact documentation edit; structural validation does not prove runtime behavior. No lessons/ADR needed.
+- Next: commit/push this branch and create a PR; record publication evidence after it actually exists.
