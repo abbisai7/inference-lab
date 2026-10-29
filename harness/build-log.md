@@ -90,3 +90,11 @@ If this file becomes cumbersome, move closed-phase entries intact to linked per-
 - Observed: commit 1a6fa34 pushed to docs/readme-repository-guide; [PR #2](https://github.com/abbisai7/inference-lab/pull/2) created and attached to this chat. No main write or merge.
 - Execution correction: initial staging was denied by the filesystem sandbox; the subsequent commit found nothing staged, while the push created only the branch at its main base. Retried staging with approved Git permissions, then committed/pushed the actual documentation successfully. No code or user changes lost.
 - Checks: structural links passed before publication, staged whitespace check passed, descriptions self-reviewed. Final closure validation repeated. No application/unit tests or independent review for this documentation-only scope.
+
+## 2026-10-29T17:44:47-04:00 — Short README verified
+
+- Record: [Change 0008](build/change-0008-short-readme.md); two documentation criteria Verified, Complete within local edit/validation scope.
+- Branch: docs/short-readme from origin/main at d66e15f after confirming PR #2 merged. No main writes/merge.
+- User steering: detailed tables were too much; keep brief major-area descriptions and navigation, no exhaustive tree, tables or boxed listings. README is now 22 lines; underlying repository unchanged.
+- Observed: `python3 scripts/validate_repo.py` passed; `git diff --check` passed. Self-reviewed required entry links and accurate scaffold status. Reading map/index still applicable. No unit/app tests, independent review, or new ADR/lesson for this documentation-only edit.
+- Next authorized action: commit/push this topic branch and open a PR. Remote publication is not claimed in this precommit snapshot.
